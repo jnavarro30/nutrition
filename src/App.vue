@@ -1,5 +1,9 @@
 <script setup lang="ts">
+import { onMounted } from 'vue';
 import { RouterLink, RouterView } from 'vue-router'
+
+// const key = import.meta.env.VITE_FDC_API_KEY
+
 </script>
 
 <template>

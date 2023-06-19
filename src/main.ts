@@ -6,10 +6,6 @@ import router from './router'
 
 const app = createApp(App)
 
-app.config.globalProperties.state = {
-    color: 'red'
-}
-
 app.use(router)
 
 app.mount('#app')
